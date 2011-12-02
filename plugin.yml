@@ -1,0 +1,16 @@
+name: tCheat
+main: me.tauryuu.tcheat.tCheat
+version: 0.1
+author: Tauryuu
+permissions:
+    tcheat.*:
+        description: Allow all cheat mods
+        children:
+            tcheat.fly: true
+            tcheat.cheat: true
+    tcheat.fly:
+        description: Allow flying
+        default: op
+    tcheat.cheat:
+        description: Allows cheating like xray and cheaty maps
+        default: op
